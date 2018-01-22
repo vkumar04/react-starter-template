@@ -1,10 +1,22 @@
 {
   "name": "react-starter-template",
   "version": "1.0.0",
-  "description": "react starter template",
+  "description": "",
   "main": "index.js",
-  "author": "Vick Kumar",
-  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkumar04/react-starter-template.git"
+  },
+  "author": "vick kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkumar04/react-starter-template/issues"
+  },
+  "homepage": "https://github.com/vkumar04/react-starter-template#readme",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
@@ -12,9 +24,7 @@
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.7.2",
     "parcel-bundler": "^1.4.1"
-  },
-  "scripts": {
-    "start": "parcel index.js"
   }
 }

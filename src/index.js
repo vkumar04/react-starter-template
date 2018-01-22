@@ -1,11 +1,12 @@
-import React from 'react'
-import {render} from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import '../scss/styles.scss';
 
 const App = () => {
-    return (
-        <div>Hello React!</div>
+    return(
+        <div>Test</div>
     )
 }
 
-const app = document.getElementById('app')
-render(<App/>, app)
+const mount = document.getElementById('app')
+ReactDOM.render(<App/>, mount)
